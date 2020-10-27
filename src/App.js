@@ -1,7 +1,8 @@
-import logo from "./logo.svg";
 import "./App.css";
 import React, { Component } from "react";
 import { Route, NavLink, HashRouter } from "react-router-dom";
+import Home from "./Home";
+import Resume from "./Resume";
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
               </NavLink>
             </li>
             <li>
-              <NavLink exact to="/technical">
+              <NavLink exact to="/resume">
                 Resume
               </NavLink>
             </li>
@@ -33,6 +34,9 @@ function App() {
             </li>
           </ul>
           <h1>Sameer Khan</h1>
+
+          <Route exact path="/" component={Home} />
+          <Route exact path="/resume" component={Resume} />
         </div>
       </div>
     </HashRouter>
