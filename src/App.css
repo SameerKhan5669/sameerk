@@ -1,6 +1,14 @@
 * {
   box-sizing: border-box;
 }
+.app_body {
+  display: flex;
+}
+
+.app {
+  background-color: #f1f2f5;
+  height: 100vh;
+}
 body {
   font-family: "Roboto", serif;
   font-weight: 300;

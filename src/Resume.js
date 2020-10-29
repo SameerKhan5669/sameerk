@@ -26,7 +26,7 @@ class Resume extends Component {
         <div className="Resume">
           <SizeMe>
             {({ size }) => (
-              <Document file={"Resume.pdf"}>
+              <Document file={"sameer_khan_resume.pdf"}>
                 <Page
                   pageNumber={1}
                   onLoadSuccess={this.removeTextLayerOffset}
