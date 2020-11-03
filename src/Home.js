@@ -14,7 +14,7 @@ class Home extends Component {
         </p>
 
         <p>
-          I am an incomgng intern at SWE Taplytics and have completed two prior
+          I am an incoming SWE intern at Taplytics and have completed two prior
           internships at Halp and Royaltymine in Tornoto
         </p>
 
@@ -38,17 +38,9 @@ class Home extends Component {
 
         <p>
           If you have any questions about my experiences, education, projects or
-          want to connect about an opportunity, I'd love to{" "}
-          <a href="https://linkedin.com/in/sameerkhan5669">
-            connect on LinkedIn
-          </a>{" "}
-          or have an{" "}
-          <a href="mailto:sa74khan@uwaterloo.ca">exchange over email</a>!
-        </p>
-
-        <p>
-          You can view the source code for this website and my projects{" "}
-          <a href="https://github.com/sameerkhan5669">here</a>.
+          want to connect about an opportunity, feel free to reach me at
+          647-914-8990 or
+          <a href="mailto:sa74khan@uwaterloo.ca"> email me</a> anytime!
         </p>
       </div>
     );

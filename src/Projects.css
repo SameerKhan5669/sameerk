@@ -1,0 +1,63 @@
+.messageSender_bottom {
+  display: flex;
+  justify-content: space-evenly;
+}
+.messageSender_option {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  color: gray;
+  margin: 5px;
+}
+
+.social_button {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  color: gray;
+  margin: 5px;
+}
+
+.messageSender_option > h3 {
+  font-size: medium;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.clicked > h3 {
+  font-size: medium;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.messageSender_option:hover {
+  background-color: #eff2f5;
+  border-radius: 20px;
+}
+
+.clicked {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  color: gray;
+  margin: 5px;
+  background-color: #eff2f5;
+  border-radius: 20px;
+}
+
+.social_container {
+  width: 10%;
+  left: 45%;
+  right: -100px;
+  position: relative;
+}
+
+.Image {
+  width: 1450px;
+  padding-left: 50px;
+}
+.Text {
+  padding-top: 20px;
+
+  display: flex;
+  justify-content: space-evenly;
+}
