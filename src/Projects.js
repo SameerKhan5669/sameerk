@@ -42,6 +42,7 @@ class Projects extends Component {
             className={
               this.state.project == 3 ? "clicked" : "messageSender_option"
             }
+            onClick={() => this.setState({ project: 3 })}
           >
             <FacebookIcon style={{ color: "blue" }} />
             <h3>Facebook Clone</h3>
@@ -51,6 +52,7 @@ class Projects extends Component {
             className={
               this.state.project == 4 ? "clicked" : "messageSender_option"
             }
+            onClick={() => this.setState({ project: 4 })}
           >
             <AlbumIcon style={{ color: "black" }} />
             <h3>Car & Pedestrain tracker</h3>
@@ -60,6 +62,7 @@ class Projects extends Component {
             className={
               this.state.project == 5 ? "clicked" : "messageSender_option"
             }
+            onClick={() => this.setState({ project: 5 })}
           >
             <TrendingDownIcon style={{ color: "red" }} />
             <h3>WSB Sentiment tracker</h3>
@@ -69,6 +72,7 @@ class Projects extends Component {
             className={
               this.state.project == 6 ? "clicked" : "messageSender_option"
             }
+            onClick={() => this.setState({ project: 6 })}
           >
             <TrendingUpIcon style={{ color: "green" }} />
             <h3>Hyped Stock Tracker</h3>
@@ -126,6 +130,11 @@ class Projects extends Component {
                 src="amazon.gif"
               />
             }
+          </div>
+        ) : null}
+        {this.state.project > 2 ? (
+          <div className="">
+            <h2> Demo and description Coming Soon</h2>
           </div>
         ) : null}
       </div>
