@@ -27,8 +27,8 @@ class Home extends Component {
 
         <p>
           I have also created a few stock markets bots that have outperfomred
-          the market, have built an Tesla like AI pedastrain and car tracker,
-          and build a Chrome extension to Control my Tesla model 3 with chrome.
+          the market, and currenlty am working on a 'GameStonk Terminal' with a
+          few buddies.
         </p>
 
         <p>

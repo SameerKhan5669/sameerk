@@ -20,16 +20,6 @@ class Projects extends Component {
         <div className="messageSender_bottom">
           <div
             className={
-              this.state.project == 1 ? "clicked" : "messageSender_option"
-            }
-            onClick={() => this.setState({ project: 1 })}
-          >
-            <DriveEtaIcon style={{ color: "black" }} />
-            <h3>Tesla Controls Chrome Extesion</h3>
-          </div>
-
-          <div
-            className={
               this.state.project == 2 ? "clicked" : "messageSender_option"
             }
             onClick={() => this.setState({ project: 2 })}
@@ -78,7 +68,7 @@ class Projects extends Component {
             <h3>Hyped Stock Tracker</h3>
           </div>
         </div>{" "}
-        {this.state.project == 1 ? (
+        {/* {this.state.project == 1 ? (
           <div className="Text">
             <div>
               <p style={{ fontSize: "25px" }}>
@@ -104,7 +94,7 @@ class Projects extends Component {
               />
             }
           </div>
-        ) : null}
+        ) : null} */}
         {this.state.project == 2 ? (
           <div className="">
             <div>
