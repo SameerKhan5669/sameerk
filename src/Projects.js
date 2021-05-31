@@ -20,6 +20,16 @@ class Projects extends Component {
         <div className="messageSender_bottom">
           <div
             className={
+              this.state.project == 1 ? "clicked" : "messageSender_option"
+            }
+            onClick={() => this.setState({ project: 1 })}
+          >
+            <AlbumIcon style={{ color: "grey" }} />
+            <h3>Memeberg Terminal</h3>
+          </div>
+
+          <div
+            className={
               this.state.project == 2 ? "clicked" : "messageSender_option"
             }
             onClick={() => this.setState({ project: 2 })}
@@ -36,16 +46,6 @@ class Projects extends Component {
           >
             <FacebookIcon style={{ color: "blue" }} />
             <h3>Facebook Clone</h3>
-          </div>
-
-          <div
-            className={
-              this.state.project == 4 ? "clicked" : "messageSender_option"
-            }
-            onClick={() => this.setState({ project: 4 })}
-          >
-            <AlbumIcon style={{ color: "black" }} />
-            <h3>Car & Pedestrain tracker</h3>
           </div>
 
           <div
@@ -68,33 +68,34 @@ class Projects extends Component {
             <h3>Hyped Stock Tracker</h3>
           </div>
         </div>{" "}
-        {/* {this.state.project == 1 ? (
-          <div className="Text">
+        {this.state.project == 1 ? (
+          <div className="">
             <div>
               <p style={{ fontSize: "25px" }}>
                 {" "}
-                Ever since I got my tesla Model 3 I was immediately in love with
-                the ability to control the car from my phone, however when I am
-                busy with work I do not use my phone and spent some time
-                searchig for a chrome extension that this exactly this. However,
-                I was unable to find a working one.
+                Here is a demo of my MemeStonk Terminal that me and a few other
+                developers are working on, you start by choosing a stock, in
+                this case I chose TSLA. I then input related companies for
+                comparision. After this we can see overview showing sectors and
+                basic info, then financial information, and then we see
+                performance. Lastly, we see a heat map of historical price
+                comparision between these companies. This is currently in
+                development and a GUI is in Progress!
               </p>
+
               <p style={{ fontSize: "25px" }}>
                 {" "}
-                However, lucky for me, I'm a developer, so I decided to make one
-                myself and now I am able to contorl all my car's funcitons from
-                the comfort of my computer without getting distracted by my
-                phone
+                Stay tuned to be able to use it!
               </p>
             </div>
             {
               <Img
-                style={{ width: "450px", paddingLeft: "50px" }}
-                src="tesla.gif"
+                style={{ width: "100%", paddingBottom: "100px" }}
+                src="terminal1.gif"
               />
             }
           </div>
-        ) : null} */}
+        ) : null}
         {this.state.project == 2 ? (
           <div className="">
             <div>
@@ -122,7 +123,33 @@ class Projects extends Component {
             }
           </div>
         ) : null}
-        {this.state.project > 2 ? (
+        {this.state.project == 3 ? (
+          <div className="">
+            <div>
+              <p style={{ fontSize: "25px" }}>
+                {" "}
+                Here is a demo of my facebook clone, it uses the facebook
+                design. It was build using ReactJS, and hosted using FireBase
+              </p>
+
+              <p style={{ fontSize: "25px" }}>
+                {" "}
+                View it <a href="https://facebook-clone-cd14e.web.app/">here</a>
+                ! See source code{" "}
+                <a href="https://github.com/SameerKhan5669/facebook-clone">
+                  here
+                </a>
+              </p>
+            </div>
+            {
+              <Img
+                style={{ width: "100%", paddingBottom: "100px" }}
+                src="fb.gif"
+              />
+            }
+          </div>
+        ) : null}
+        {this.state.project > 3 ? (
           <div className="">
             <h2> Demo and description Coming Soon</h2>
           </div>

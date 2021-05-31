@@ -14,20 +14,21 @@ class Home extends Component {
         </p>
 
         <p>
-          I am an incoming SWE intern at Taplytics and have completed two prior
-          internships at Halp and Royaltymine in Tornoto
+          I am currenlty looking for Fall 2021 internships. In the past, I have
+          completed three internshiops at Taplytics (YC, 2011), Halp, and
+          Royaltymine
         </p>
 
         <p>
-          I am a day trader by day and math student by the night, I have a
-          trading guide <a href="/#/stocks">published here</a> which guides you
-          through introduction to technical analysis and common candlestick
-          patterns.
+          When not on CO-OP, I am a trader by day and math student by the night,
+          I have a trading guide <a href="/#/stocks">published here</a> which
+          guides you through introduction to technical analysis and common
+          candlestick patterns.
         </p>
 
         <p>
           I have also created a few stock markets bots that have outperfomred
-          the market, and currenlty am working on a 'GameStonk Terminal' with a
+          the market, and currenlty am working on a 'Memeberg Terminal' with a
           few buddies.
         </p>
 
