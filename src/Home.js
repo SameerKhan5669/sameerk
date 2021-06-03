@@ -15,7 +15,7 @@ class Home extends Component {
 
         <p>
           I am currenlty looking for Fall 2021 internships. In the past, I have
-          completed three internshiops at Taplytics (YC, 2011), Halp, and
+          completed three internships: Taplytics (YC, 2011), Halp, and
           Royaltymine
         </p>
 
