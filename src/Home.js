@@ -9,13 +9,13 @@ class Home extends Component {
         <h4>Welcome to my site,</h4>
 
         <p>
-          Thank you for visiting. I am a third year student at the University of
+          Thank you for visiting. I am a fourth year student at the University of
           Waterloo
         </p>
 
         <p>
-          I am currenlty looking for Fall 2021 internships. In the past, I have
-          completed three internships: Taplytics (YC, 2011), Halp, and
+          I am currenlty looking for Fall 2022 internships. In the past, I have
+          completed five internships: 2 at Freshbooks, Taplytics (YC, 2011), Halp, and
           Royaltymine
         </p>
 
